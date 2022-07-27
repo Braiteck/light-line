@@ -1,0 +1,17 @@
+<svg width="39" height="25" viewBox="0 0 39 25" xmlns="http://www.w3.org/2000/svg">
+<line x1="19.5" y1="0.5" x2="19.5" y2="3.5" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="25.183" y1="0.950591" x2="23.683" y2="3.54867" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="0.5" y1="-0.5" x2="3.5" y2="-0.5" transform="matrix(0.5 0.866025 0.866025 -0.5 14 0.267578)" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="3.05862" y1="8.50965" x2="5.34202" y2="10.4554" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="7.7494" y1="7.30322" x2="8.75398" y2="10.13" stroke="currentColor" stroke-linecap="round" fill="none" />
+<path d="M2.11182 13.1277L5.06219 13.6711" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="0.5" y1="-0.5" x2="3.5" y2="-0.5" transform="matrix(-0.761131 0.648598 0.648598 0.761131 36.3962 8.56592)" stroke="currentColor" stroke-linecap="round" fill="none" />
+<line x1="0.5" y1="-0.5" x2="3.5" y2="-0.5" transform="matrix(-0.33486 0.942268 0.942268 0.33486 31.6392 6.99951)" stroke="currentColor" stroke-linecap="round" fill="none" />
+<path d="M36.6382 13.1277L33.6878 13.6711" stroke="currentColor" stroke-linecap="round" fill="none" />
+<rect x="4" y="19" width="30" height="4" rx="1" stroke="currentColor" stroke-width="2" fill="none" />
+<rect x="5.75" y="22.75" width="4.5" height="1.5" rx="0.75" stroke="currentColor" stroke-width="1.5" fill="none" />
+<rect x="27.75" y="22.75" width="4.5" height="1.5" rx="0.75" stroke="currentColor" stroke-width="1.5" fill="none" />
+<rect x="8" y="13" width="11" height="6" rx="1" stroke="currentColor" stroke-width="2" fill="none" />
+<rect x="19" y="13" width="11" height="6" rx="1" stroke="currentColor" stroke-width="2" fill="none" />
+<rect x="14" y="7" width="10" height="6" rx="1" stroke="currentColor" stroke-width="2" fill="none" />
+</svg>

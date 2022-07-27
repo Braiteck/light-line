@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#FFDD57">
+		<meta name="theme-color" content="#FFDD57">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<div class="img"><img src="images/logo.png" alt=""></div>
+								<div>Российский производитель<br> светодиодного освещения</div>
+							</a>
+
+							<div class="col_center">
+								<div class="links row">
+									<div><a href="/">3D Модели</a></div>
+									<div><a href="/">RAL</a></div>
+									<div><a href="/">Оплата</a></div>
+									<div><a href="/">Доставка</a></div>
+									<div><a href="/">Дилерам</a></div>
+									<div><a href="/">Индивидуальное решение</a></div>
+								</div>
+
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">О нас</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Проекты</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Производство</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Сертификаты</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+
+							<div class="col_right">
+								<div class="phone">
+									<div class="exp">Бесплатный звонок</div>
+									<div><a href="tel:88005004463">8 (800) 500 44 63</a></div>
+								</div>
+
+								<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+							</div>
+						</div>
+
+
+						<div class="cont row">
+							<div class="catalog modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									<span>КАТАЛОГ</span>
+								</button>
+
+								<div class="mini_modal" id="catalog_modal">
+									<div class="data">
+										<div class="item">
+											<div class="title">По НАЗНАЧЕНИЮ</div>
+
+											<div class="sub">
+												<div><a href="/">Офисное освещение</a></div>
+												<div><a href="/">Торговое освещение</a></div>
+												<div><a href="/">Наружное освещение</a></div>
+												<div><a href="/">Архитектурное освещение</a></div>
+												<div><a href="/">Экспозиционное освещение</a></div>
+												<div><a href="/">Декоративное освещение</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="title">По форме</div>
+
+											<div class="sub">
+												<div><a href="/">Круглые</a></div>
+												<div><a href="/">Фигурные</a></div>
+												<div><a href="/">Оригинальные</a></div>
+												<div><a href="/">Квадратные</a></div>
+												<div><a href="/">Линейные</a></div>
+												<div><a href="/">Треугольные</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="title empty"></div>
+
+											<div class="sub">
+												<div><a href="/">Индивидуальные<br> решения</a></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="products">
+										<div class="product">
+											<div class="sticker">РАСПРОДАЖА</div>
+
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/grid_product_thumb4.jpg" alt="" class="lazyload">
+											</a>
+
+											<div class="info">
+												<div class="name">
+													<a href="/">Светильник HEXA O-1400мм 145Вт</a>
+												</div>
+
+												<div class="price">56 700 <span class="currency">9</span></div>
+
+												<button class="buy_btn">
+													<span>В КОРЗИНУ</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col_center">
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+							<div class="col_right row">
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+								</div>
+
+								<a href="/" class="cart_link">
+									<span class="count">12</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="phone">
+							<div class="exp">Бесплатный звонок</div>
+							<div><a href="tel:88005004463">8 (800) 500 44 63</a></div>
+						</div>
+
+						<a href="/" class="cart_link">
+							<span class="count">12</span>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+						</a>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<div class="search">
+							<form action="">
+								<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+								<button type="submit" class="submit_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Наши проекты</span>
+						</div>
+
+						<h1 class="page_title">Заголовок может быть длинным и писаться в несколько строк две и более строк</h1>
+					</div>
+				</section>
+
+
+				<section class="promo_products_slider">
+					<div class="cont">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="row">
+										<div class="data">
+											<div class="title">Собственное производство светильников</div>
+
+											<div class="link">
+												<a href="/">
+													<span>Подробнее</span>
+													<div class="arrow">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+													</div>
+												</a>
+											</div>
+										</div>
+
+										<div class="product">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/promo_product_thumb.jpg" alt="" class="swiper-lazy">
+											</a>
+
+											<div class="info">
+												<div class="name">Светильник<br> Line 3570</div>
+
+												<div class="price">от <b>25 700</b> <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="row">
+										<div class="data">
+											<div class="title">Собственное производство светильников</div>
+
+											<div class="link">
+												<a href="/">
+													<span>Подробнее</span>
+													<div class="arrow">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+													</div>
+												</a>
+											</div>
+										</div>
+
+										<div class="product">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/promo_product_thumb.jpg" alt="" class="swiper-lazy">
+											</a>
+
+											<div class="info">
+												<div class="name">Светильник<br> Line 3570</div>
+
+												<div class="price">от <b>25 700</b> <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="row">
+										<div class="data">
+											<div class="title">Собственное производство светильников</div>
+
+											<div class="link">
+												<a href="/">
+													<span>Подробнее</span>
+													<div class="arrow">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+													</div>
+												</a>
+											</div>
+										</div>
+
+										<div class="product">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/promo_product_thumb.jpg" alt="" class="swiper-lazy">
+											</a>
+
+											<div class="info">
+												<div class="name">Светильник<br> Line 3570</div>
+
+												<div class="price">от <b>25 700</b> <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="controls">
+								<div class="count">
+									<span class="current">1</span>
+									<span class="sep">/</span>
+									<spab class="total">1</spab>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="text_block">
+							<h2>H2  Заголовок для блока, где есть изображение с текстом</h2>
+
+							<div class="cols">
+								<div class="col">
+									<figure>
+										<img src="images/tmp/text_img2.jpg" alt="">
+
+										<figcaption>Стиль подписи под изображением </figcaption>
+									</figure>
+								</div>
+
+								<div class="col">
+									<p>Максимальная геометризация форм в дизайне офиса от PK AID. Она заключается в рациональных, строгих пространствах без малейшего намека на декор. Но не для упрощения восприятия, а для логики.</p>
+
+									<p>Технологичное на вид осветительное оборудование тут как нигде к месту. Линейные, прямоугольные, сферические светильники – просты и функциональны, в лучших традициях конструктивизма.</p>
+
+									<p>Напряжение питания 24V<br> Питающее напряжение в магнитной системе подается на токопроводящую плату, проходящую внутри алюминиевого корпуса.</p>
+
+									<p><b>Встраиваемый магнитный трек HOKASU OneLine IN</b></p>
+
+									<p>Уникальная конструкция позволяет легко менять расположение источников света и создавать бесконечное количество световых сценариев.</p>
+								</div>
+							</div>
+
+							<h2>H2  Заголовок для блока, где есть большое изображение</h2>
+
+							<img src="images/tmp/text_img3.jpg" alt="">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="clients">
+					<div class="cont">
+						<div class="block_head padding_right">
+							<div class="title">НАШИ <b>Клиенты</b></div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo2.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo3.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo4.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo5.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo2.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo3.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo4.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo5.png" alt="" class="swiper-lazy">
+									</div>
+								</div>
+							</div>
+
+							<div class="controls">
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="get_cooperation">
+					<div class="cont">
+						<div class="data">
+							<div class="block_head">
+								<div class="title"><b>Заявка на сотрудничество</b></div>
+							</div>
+
+							<form action="" class="form">
+								<div class="line">
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Название компании">
+									</div>
+								</div>
+
+								<div class="cols row">
+									<div class="col min_w">
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="ИНН">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Фамилия Имя Отчество">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="email" name="" value="" class="input" placeholder="E-mail">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="tel" name="" value="" class="input" placeholder="Телефон">
+											</div>
+										</div>
+									</div>
+
+									<div class="col big_w">
+										<div class="line">
+											<div class="field">
+												<textarea name="" placeholder="Сообщение"></textarea>
+											</div>
+										</div>
+
+										<div class="line file">
+											<input type="file" name="file" id="cooperation_file">
+											<label for="cooperation_file">
+												<div class="btn">Выбрать файл</div>
+												<div class="path">Файл не выбран</div>
+											</label>
+										</div>
+
+										<div class="bottom">
+											<div class="agree">Нажимая "Отправить", я даю согласие на обработку моих  персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+
+											<div class="submit">
+												<button type="submit" class="submit_btn">Отправить</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+
+							<img data-src="images/get_cooperation_img.png" alt="" class="img lazyload">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="text_block min_w">
+							<div class="bg">
+								<h3>Н3  Заголовок для выделенного текста</h3>
+
+								<p>Специализируется на производстве и продаже светодиодного осветительного оборудования, располагает широким ассортиментом продукции для различного применения. Наличие собственного производства, технологий и разработок, большого опыта в проектировании и производстве светодиодного освещения дает возможность отвечать самым высоким требованиям наших заказчиков.<br> С каждым годом производство светодиодных светильников увеличивается за счет повышения спроса на данную продукцию.</p>
+
+								<p>Тенденции роста популярности применения светодиодов вполне объяснимы, ведь они имеют ряд преимуществ в сравнении с теми же люминесцентными или лампами накаливания.</p>
+							</div>
+
+							<p class="big">Оригинальные подвесные светильники способны украсить собой любой интерьер. Однако эти приборы достаточно требовательны к пространству, в котором располагаются. Чтобы подвесы органично вписались в обстановку вашего дома, нужно правильно подбирать их с учётом конструктивных особенностей. А ещё очень важно найти таким светильникам наиболее подходяще место в интерьере каждой из комнат дома. Об особенностях использования подвесов читайте в этой статье.</p>
+
+							<blockquote class="right">
+								<p>Мы увидели, какая информация размещена на ваших материалах, поняли ее общественную социальную значимость, и мы не возьмем с вас денег за заказ. Это наш вклад в вашу просветительскую деятельность!</p>
+
+								<div class="author">Пантелеймон Христорождественский</div>
+							</blockquote>
+
+							<p>В качестве локального источника света подвесы можно использовать в обеденной зоне или зоне отдыха. Над большим столом будут красиво смотреться модели с текстильными абажурами, а для подсветки кофейного столика больше подойдёт небольшой аккуратный светильник простой формы.</p>
+
+							<p>Гостиная – это и отличное место для экспериментов со светом. Если вам хочется чего-то оригинального и привлекающего внимание, обратите внимание на дизайнерские модели светильников. Они могут принимать самые причудливые формы и создавать самые разные световые эффекты. Такие приборы обычно становятся главным элементом интерьера, поэтому всю остальную обстановку нужно будет оформить им «под стать».</p>
+							<div class="clear"></div>
+
+							<p>В спальне подвесы обычно используются в качестве более оригинальной альтернативы классическим бра или настольным лампам. Вариантов размещения светильников может быть несколько. Самый простой и практичный – над прикроватными тумбочками.</p>
+
+							<div class="slider">
+								<div class="block_title">
+									<span>Заголовок блока со слайдером</span>
+								</div>
+
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Если в спальне есть туалетный столик, его тоже можно осветить подвесными светильниками. Дополнительный свет поможет выделить эту зону в помещении, а также пригодится в процессе нанесения макияжа и других уходовых процедур.</div>
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img2.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Дизайн и размеры светильника будут зависеть от размера и особенностей комнаты. Если спальня небольшая, в неё больше подойдут аккуратные лампы с плафонами простой геометрической формы. Для просторных помещений можно выбрать более крупные фигурные плафоны.</div>
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img3.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Светильники на подвесах в кухне тоже могут быть и основными, и вспомогательными. Самое важное здесь – чтобы они были удобными, функциональными и практичными.</div>
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Если в спальне есть туалетный столик, его тоже можно осветить подвесными светильниками. Дополнительный свет поможет выделить эту зону в помещении, а также пригодится в процессе нанесения макияжа и других уходовых процедур.</div>
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img2.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Дизайн и размеры светильника будут зависеть от размера и особенностей комнаты. Если спальня небольшая, в неё больше подойдут аккуратные лампы с плафонами простой геометрической формы. Для просторных помещений можно выбрать более крупные фигурные плафоны.</div>
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="/" class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/text_slider_img3.jpg" alt="" class="swiper-lazy">
+												</div>
+
+												<div class="caption">Светильники на подвесах в кухне тоже могут быть и основными, и вспомогательными. Самое важное здесь – чтобы они были удобными, функциональными и практичными.</div>
+											</a>
+										</div>
+									</div>
+
+									<div class="controls">
+										<div class="swiper-button-prev">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</div>
+
+										<div class="swiper-button-next">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<h2>H2  Заголовок для продвижения</h2>
+
+							<div class="message">
+								<p>Многие модели подвесных светильников имеют заменяемые подвесы. Это удобно, если вы любите время от времени вносить что-то новое в интерьер вашего дома. Некоторые производители предлагают покупателям «невидимые» подвесы, с ними люстры эффектно парят в воздухе, добавляя интерьеру лёгкости и оригинальности.<br> Многие модели подвесных светильников имеют заменяемые подвесы.</p>
+							</div>
+
+							<div class="cols">
+								<div class="col message">
+									<p>В качестве локального источника света подвесы можно использовать в обеденной зоне или зоне отдыха. Над большим столом будут красиво смотреться модели с текстильными абажурами, а для подсветки</p>
+								</div>
+
+								<div class="col message">
+									<p>Над большим столом будут красиво смотреться модели с текстильными абажурами, а для подсветки кофейного столика больше подойдёт небольшой аккуратный светильник простой формы.</p>
+								</div>
+							</div>
+
+							<h3>Н3  Заголовок для продвижения</h3>
+
+							<ul>
+								<li>Точечные – у таких приборов крепление к потолку выполняется только в одной точке.</li>
+								<li>Линейные – крепёжная планка у таких приборов имеет прямоугольную форму.</li>
+								<li>Круговые – эти светильники устанавливаются на круглую монтажную планку.</li>
+								<li>Хаотичные – такое крепление используют для дизайнерских моделей светильников</li>
+								<li>Провода, тросы или цепи – это гибкие удерживающие элементы</li>
+								<li>Штанги – это металлические трубки разной длины. Они не обладают гибкостью и подвижностью предыдущих подвесов</li>
+							</ul>
+
+							<h4>Н4  Заголовок блока</h4>
+
+							<ol>
+								<li>Многие модели подвесных светильников имеют заменяемые подвесы. Это удобно, если вы любите время от времени вносить что-то новое в интерьер вашего дома. Некоторые производители предлагают покупателям «невидимые» подвесы, с ними люстры эффектно парят в воздухе, добавляя интерьеру лёгкости и оригинальности.</li>
+
+								<li>Выбирая подвес на роль главной люстры, обратите внимание на длину шнура (или другого крепления). Важно, чтобы он не был слишком длинным: от нижнего края прибора до пола должно выдерживаться расстояние 200-210 см.</li>
+
+								<li>В качестве локального источника света подвесы можно использовать в обеденной зоне или зоне отдыха. Над большим столом будут красиво смотреться модели с текстильными абажурами, а для подсветки кофейного столика больше подойдёт небольшой аккуратный светильник простой формы.</li>
+
+								<li>Гостиная – это и отличное место для экспериментов со светом. Если вам хочется чего-то оригинального и привлекающего внимание, обратите внимание на дизайнерские модели светильников. Они могут принимать самые причудливые формы и создавать самые разные световые эффекты. Такие приборы обычно становятся главным элементом интерьера, поэтому всю остальную обстановку нужно будет оформить им «под стать».</li>
+
+								<li>В спальне подвесы обычно используются в качестве более оригинальной альтернативы классическим бра или настольным лампам. Вариантов размещения светильников может быть несколько. Самый простой и практичный – над прикроватными тумбочками.</li>
+							</ol>
+
+							<h3>Н3 Варианты использования</h3>
+
+							<div class="table_wrap">
+								<table>
+									<thead>
+										<tr>
+											<th>Наименование</th>
+											<th>Значение или пояснение</th>
+											<th>Параметр</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>Точечные</td>
+											<td>фактором преобразования </td>
+											<td class="price nowrap"><b>15 500</b> ₽</td>
+										</tr>
+
+										<tr>
+											<td>Линейные</td>
+											<td>фактором преобразования </td>
+											<td class="price nowrap"><b>15 500</b> ₽</td>
+										</tr>
+
+										<tr>
+											<td>Круговые</td>
+											<td>фактором преобразования </td>
+											<td class="price nowrap"><b>15 500</b> ₽</td>
+										</tr>
+
+										<tr>
+											<td>Хаотичные</td>
+											<td>фактором преобразования </td>
+											<td class="price nowrap"><b>15 500</b> ₽</td>
+										</tr>
+
+										<tr>
+											<td>Провода, тросы или цепи</td>
+											<td>фактором преобразования </td>
+											<td class="price nowrap"><b>15 500</b> ₽</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="notice">
+								<div class="title">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_notice"></use></svg>
+									</div>
+									<span>ВАЖНО!</span>
+								</div>
+
+								<ol>
+									<li>Если кухня небольшая, можно ограничиться одной подвесной люстрой в центре комнаты. Выберите такой прибор, который будет располагаться достаточно высоко, чтобы не мешать вам физически. Кроме того, люстра должна создавать качественное освещение</li>
+
+									<li>Ещё одно важное требование – за светильниками должно быть просто ухаживать. Не нужно выбирать модели со сложным декором, по возможности стоит отказаться от текстильных абажуров – они впитывают загрязнения и запахи.</li>
+
+									<li>Выбирая подвесы в прихожую, нужно отталкиваться от размеров и особенностей планировки помещения.</li>
+								</ol>
+							</div>
+
+							<div class="file_links">
+								<div><a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+									<span>Линейные – крепёжная планка приборов</span>
+								</a></div>
+
+								<div><a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+									<span>Линейные – крепёжная планка приборов</span>
+								</a></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<div class="img"><img src="images/logo_white.png" alt=""></div>
+								<div>Российский производитель<br> светодиодного освещения</div>
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<div>
+										<div><a href="tel:84956496048">8 (495) 649-60-48</a></div>
+
+										<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+									</div>
+								</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+									<div>109382, г. Москва,<br> Егорьевский проезд 2ас2,<br> Офис № 201</div>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+									<div><a href="mailto:info@svetoteka.ru">info@svetoteka.ru</a></div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="catalog">
+							<div class="title">Каталог</div>
+
+							<div class="items columns">
+								<div><a href="/">Линейные</a></div>
+								<div><a href="/">Объемные</a></div>
+								<div><a href="/">Фигурные</a></div>
+								<div><a href="/">Круглые</a></div>
+								<div><a href="/">Для офиса</a></div>
+								<div><a href="/">Для торговых площадей</a></div>
+								<div><a href="/">Декоративные</a></div>
+								<div><a href="/">Наружные</a></div>
+								<div><a href="/">Архитектурные</a></div>
+							</div>
+						</div>
+
+
+						<div class="col_right">
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+							</div>
+
+							<div class="links">
+								<div class="items">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/">Сотрудничество</a></div>
+									<div><a href="/">Доставка и оплата</a></div>
+									<div><a href="/">Портфолио</a></div>
+									<div><a href="/">Производство</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2014-2022 Интернет-магазин света. Все права защищены.</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденцальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта - <span>Точка Ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Ваше имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7 (___) ___-__-__">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Необязательное сообщение</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line agree">Нажимая "Отправить", я даю согласие на обработку моих  персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
