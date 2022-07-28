@@ -618,9 +618,7 @@ $(() => {
 					})
 
 					// Спойлер товаров
-					$('.produts_table tbody tr:visible').length > 6
-						? $('.product_selection .more').show()
-						: $('.product_selection .more').hide()
+					$('.product_selection .more').hide()
 				}
 			})
 		})
