@@ -604,16 +604,23 @@ $(() => {
 			})
 
 			// Показываем все товары
-			$('.produts_table tr').show()
+			$('.produts_table tbody tr').removeClass('hidden').addClass('active')
 
 			params.forEach(el => {
 				// Если параметр выбран
 				if (el.value.length) {
 					// Проходимся по товарам и проверяем соответствие товара
-					$('.produts_table tr').each(function () {
+					$('.produts_table tbody tr').each(function () {
 						// Если не подходит, скрываем
-						if ($(this).data(el.name) != el.value) { $(this).hide() }
+						if ($(this).data(el.name) != el.value) {
+							$(this).addClass('hidden').removeClass('active')
+						}
 					})
+
+					// Спойлер товаров
+					$('.produts_table tbody tr:visible').length > 6
+						? $('.product_selection .more').show()
+						: $('.product_selection .more').hide()
 				}
 			})
 		})
@@ -621,7 +628,12 @@ $(() => {
 
 	$('.product_selection .filter .reset_btn').click(function () {
 		// Показываем все товары
-		$('.produts_table tr').show()
+		$('.produts_table tbody tr').removeClass('hidden active')
+
+		// Спойлер товаров
+		$('.produts_table tbody tr').length > 6
+			? $('.product_selection .more').show()
+			: $('.product_selection .more').hide()
 	})
 
 
@@ -631,8 +643,8 @@ $(() => {
 		let parent = $(this).closest('.product_selection')
 
 		!$(this).hasClass('active')
-			? parent.find('.produts_table tr:nth-child(6) ~ tr').addClass('show')
-			: parent.find('.produts_table tr:nth-child(6) ~ tr').removeClass('show')
+			? parent.find('.produts_table tr.hide').addClass('show')
+			: parent.find('.produts_table tr.hide').removeClass('show')
 
 		$(this).toggleClass('active')
 	})
@@ -662,14 +674,14 @@ $(() => {
 			on: {
 				slideChange: swiper => {
 					setTimeout(() => {
-						$('.product_info .images .thumbs button').removeClass('active')
-						$('.product_info .images .thumbs button').eq(swiper.activeIndex).addClass('active')
+						$('.product_info .images .thumbs .btn').removeClass('active')
+						$('.product_info .images .thumbs .btn').eq(swiper.activeIndex).addClass('active')
 					})
 				}
 			}
 		})
 
-		$('.product_info .images .thumbs button').click(function (e) {
+		$('.product_info .images .thumbs .btn').click(function (e) {
 			e.preventDefault()
 
 			productSlider.slideTo($(this).data('slide-index'), 500)

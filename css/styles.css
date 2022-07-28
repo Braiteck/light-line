@@ -6066,12 +6066,15 @@ aside .filter .reset_btn
 }
 
 
-.product_selection .produts_table tr:nth-child(6) ~ tr
+.product_selection .produts_table tr.hide,
+.product_selection .produts_table tr.hidden,
+.product_selection .produts_table tr.show.hidden
 {
     display: none;
 }
 
-.product_selection .produts_table tr:nth-child(6) ~ tr.show
+.product_selection .produts_table tr.show,
+.product_selection .produts_table tr.hide.active
 {
     display: table-row;
 }
