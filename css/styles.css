@@ -6035,6 +6035,48 @@ aside .filter .reset_btn
 }
 
 
+.product_selection .more
+{
+    margin-top: 12px;
+
+    text-align: center;
+}
+
+
+.product_selection .more .spoler_btn
+{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+
+    white-space: nowrap;
+
+    border-bottom: 1px dashed;
+}
+
+.product_selection .more .spoler_btn.active span,
+.product_selection .more .spoler_btn span + span
+{
+    display: none;
+}
+
+.product_selection .more .spoler_btn.active span + span
+{
+    display: block;
+}
+
+
+.product_selection .produts_table tr:nth-child(6) ~ tr
+{
+    display: none;
+}
+
+.product_selection .produts_table tr:nth-child(6) ~ tr.show
+{
+    display: table-row;
+}
+
+
 
 /*------------------
     Product info
@@ -6212,7 +6254,7 @@ aside .filter .reset_btn
 }
 
 
-.product_info .images .thumbs button
+.product_info .images .thumbs .btn
 {
     position: relative;
 
@@ -6250,7 +6292,7 @@ aside .filter .reset_btn
 }
 
 
-.product_info .images .thumbs button img
+.product_info .images .thumbs .btn img
 {
     display: block;
 
@@ -6259,10 +6301,55 @@ aside .filter .reset_btn
 }
 
 
-.product_info .images .thumbs button.active
+.product_info .images .thumbs .btn.active
 {
     border-color: #ffdd57;
     box-shadow: inset 0 0 0 1px #ffdd57;
+}
+
+
+.product_info .images .thumbs .more
+{
+    display: none;
+
+    width: calc(100% - 11px);
+    margin-top: 12px;
+
+    text-align: center;
+}
+
+
+.product_info .images .thumbs .spoler_btn
+{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+
+    white-space: nowrap;
+
+    border-bottom: 1px dashed;
+}
+
+.product_info .images .thumbs .spoler_btn.active span,
+.product_info .images .thumbs .spoler_btn span + span
+{
+    display: none;
+}
+
+.product_info .images .thumbs .spoler_btn.active span + span
+{
+    display: block;
+}
+
+
+.product_info .images .thumbs .btn:nth-child(9) ~ .btn
+{
+    display: none;
+}
+
+.product_info .images .thumbs .btn:nth-child(9) ~ .more
+{
+    display: block;
 }
 
 
@@ -6431,7 +6518,7 @@ aside .filter .reset_btn
     border-bottom: 1px dashed;
 }
 
-.product_info .mods .btn .icon
+/* .product_info .mods .btn .icon
 {
     color: #4f4f4f;
 
@@ -6482,7 +6569,7 @@ aside .filter .reset_btn
 .product_info .mods .mini_modal a:hover
 {
     text-decoration: underline;
-}
+} */
 
 
 .product_info .opt

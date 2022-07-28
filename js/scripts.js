@@ -625,6 +625,19 @@ $(() => {
 	})
 
 
+	$('.product_selection .more .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.product_selection')
+
+		!$(this).hasClass('active')
+			? parent.find('.produts_table tr:nth-child(6) ~ tr').addClass('show')
+			: parent.find('.produts_table tr:nth-child(6) ~ tr').removeClass('show')
+
+		$(this).toggleClass('active')
+	})
+
+
 	// Страница товара
 	if ($('.product_info .images').length) {
 		const productSlider = new Swiper('.product_info .images .swiper', {
@@ -662,6 +675,19 @@ $(() => {
 			productSlider.slideTo($(this).data('slide-index'), 500)
 		})
 	}
+
+
+	$('.product_info .images .thumbs .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.thumbs')
+
+		!$(this).hasClass('active')
+			? parent.find('.btn:nth-child(9) ~ .btn').fadeIn(200)
+			: parent.find('.btn:nth-child(9) ~ .btn').fadeOut(100)
+
+		$(this).toggleClass('active')
+	})
 
 
 	// Fancybox
@@ -745,6 +771,19 @@ $(() => {
 		$('.mini_modal, .mini_modal_btn').removeClass('active')
 
 		if (is_touch_device()) $('body').css('cursor', 'default')
+	})
+
+
+	// Плавная прокрутка к якорю
+	$('.scroll_btn').click(function (e) {
+		e.preventDefault()
+
+		let href = $(this).data('anchor'),
+			addOffset = 20
+
+		if ($(this).data('offset')) addOffset = $(this).data('offset')
+
+		$('html, body').stop().animate({ scrollTop: $(href).offset().top - addOffset }, 1000)
 	})
 
 

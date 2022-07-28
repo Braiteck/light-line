@@ -1070,7 +1070,7 @@
         margin-left: -8px;
     }
 
-    .product_info .images .thumbs button
+    .product_info .images .thumbs .btn
     {
         width: calc(20% - 8px);
         margin-bottom: 8px;

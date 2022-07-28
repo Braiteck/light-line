@@ -613,7 +613,7 @@
     }
 
 
-    .product_info .images .thumbs button
+    .product_info .images .thumbs .btn
     {
         width: calc(25% - 8px);
         padding-bottom: 17%;
