@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#FFDD57">
+		<meta name="theme-color" content="#FFDD57">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<div class="img"><img src="images/logo.png" alt=""></div>
+								<div>Российский производитель<br> светодиодного освещения</div>
+							</a>
+
+							<div class="col_center">
+								<div class="links row">
+									<div><a href="/">3D Модели</a></div>
+									<div><a href="/">RAL</a></div>
+									<div><a href="/">Оплата</a></div>
+									<div><a href="/">Доставка</a></div>
+									<div><a href="/">Дилерам</a></div>
+									<div><a href="/">Индивидуальное решение</a></div>
+								</div>
+
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">О нас</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Проекты</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Производство</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Сертификаты</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+
+							<div class="col_right">
+								<div class="phone">
+									<div class="exp">Бесплатный звонок</div>
+									<div><a href="tel:88005004463">8 (800) 500 44 63</a></div>
+								</div>
+
+								<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+							</div>
+						</div>
+
+
+						<div class="cont row">
+							<div class="catalog modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									<span>КАТАЛОГ</span>
+								</button>
+
+								<div class="mini_modal" id="catalog_modal">
+									<div class="data">
+										<div class="item">
+											<div class="title">По НАЗНАЧЕНИЮ</div>
+
+											<div class="sub">
+												<div><a href="/">Офисное освещение</a></div>
+												<div><a href="/">Торговое освещение</a></div>
+												<div><a href="/">Наружное освещение</a></div>
+												<div><a href="/">Архитектурное освещение</a></div>
+												<div><a href="/">Экспозиционное освещение</a></div>
+												<div><a href="/">Декоративное освещение</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="title">По форме</div>
+
+											<div class="sub">
+												<div><a href="/">Круглые</a></div>
+												<div><a href="/">Фигурные</a></div>
+												<div><a href="/">Оригинальные</a></div>
+												<div><a href="/">Квадратные</a></div>
+												<div><a href="/">Линейные</a></div>
+												<div><a href="/">Треугольные</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="title empty"></div>
+
+											<div class="sub">
+												<div><a href="/">Индивидуальные<br> решения</a></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="products">
+										<div class="product">
+											<div class="sticker">РАСПРОДАЖА</div>
+
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/grid_product_thumb4.jpg" alt="" class="lazyload">
+											</a>
+
+											<div class="info">
+												<div class="name">
+													<a href="/">Светильник HEXA O-1400мм 145Вт</a>
+												</div>
+
+												<div class="price">56 700 <span class="currency">9</span></div>
+
+												<button class="buy_btn">
+													<span>В КОРЗИНУ</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col_center">
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+							<div class="col_right row">
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+								</div>
+
+								<a href="/" class="cart_link">
+									<span class="count">12</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="phone">
+							<div class="exp">Бесплатный звонок</div>
+							<div><a href="tel:88005004463">8 (800) 500 44 63</a></div>
+						</div>
+
+						<a href="/" class="cart_link">
+							<span class="count">12</span>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+						</a>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<div class="search">
+							<form action="">
+								<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+								<button type="submit" class="submit_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Контакты</span>
+						</div>
+
+						<h1 class="page_title">Контакты</h1>
+					</div>
+				</section>
+
+
+				<section class="contacts_info">
+					<div class="cont">
+						<div class="row">
+							<div class="text_block">
+								<p>Компания Линия Света — российское предприятие, специализирующееся на разработке, изготовлении и продаже светодиодных светильников. В состав нашей компании входит собственное производство площадью свыше 1000 кв. метров, оснащенное высокоточным оборудованием. В полном объеме используя современные технологии, мы создаем красивую и качественную светотехнику для жилых и общественных пространств, а также для наружного освещения</p>
+							</div>
+
+							<div class="work_time">
+								<div class="title">График работы:</div>
+
+								<div>Понедельник - пятница: <b>с 06.00 до 19.00</b></div>
+								<div>Суббота и воскресенье: <b>с 11.00 до 17.00</b></div>
+							</div>
+						</div>
+
+
+						<div class="places">
+							<div class="place">
+								<div class="title">Офис</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>109382, г. Москва, ул Перерва 1А  3 этаж,  Офис 36</span>
+								</div>
+
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<a href="tel:88005004463"><b>8 (800) 500 44 63</b> (Офис)</a>
+
+									<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+								</div>
+
+								<div class="images">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-button-prev">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+										</div>
+
+										<div class="swiper-button-next">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="place">
+								<div class="title">производство</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>109382, г. Москва,  ул Перерва 1АС</span>
+								</div>
+
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<a href="tel:88005004463"><b>8 (800) 500 44 63</b> (Производство)</a>
+
+									<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+								</div>
+
+								<div class="images">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb2.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb2.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="image">
+													<img data-src="images/tmp/place_thumb2.jpg" alt="" class="swiper-lazy">
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-button-prev">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+										</div>
+
+										<div class="swiper-button-next">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="socials">
+							<div class="label">Другие способы связи:</div>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+						</div>
+
+						<div class="emails">
+							<div class="item">
+								<div class="label">Клиентский отдел</div>
+
+								<div class="val">
+									<a href="mailto:">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>info@svetoteka.ru</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="label">Оптовый отдел</div>
+
+								<div class="val">
+									<a href="mailto:">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>info@svetoteka.ru</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="label">Руководство</div>
+
+								<div class="val">
+									<a href="mailto:">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>info@svetoteka.ru</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="label">Рекламации</div>
+
+								<div class="val">
+									<a href="mailto:">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>info@svetoteka.ru</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="label">Чат-бот</div>
+
+								<div class="val">
+									<a href="mailto:">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<span>info@svetoteka.ru</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="maps tabs_container">
+						<div class="cont">
+							<div class="tabs">
+								<button data-content="#maps_tab1" data-level="level1" class="active">Офис</button>
+								<button data-content="#maps_tab2" data-level="level1">производство</button>
+							</div>
+						</div>
+
+						<div class="tab_content level1 active" id="maps_tab1">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ay1sYoVOfg5u2n2tzkSNDlywSqmpRb7MW&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+						</div>
+
+						<div class="tab_content level1" id="maps_tab2">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3AGrlSzNESHdKF1Fp8E_SgtJbgAZLUc9Db&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<div class="img"><img src="images/logo_white.png" alt=""></div>
+								<div>Российский производитель<br> светодиодного освещения</div>
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<div>
+										<div><a href="tel:84956496048">8 (495) 649-60-48</a></div>
+
+										<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+									</div>
+								</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+									<div>109382, г. Москва,<br> Егорьевский проезд 2ас2,<br> Офис № 201</div>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+									<div><a href="mailto:info@svetoteka.ru">info@svetoteka.ru</a></div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="catalog">
+							<div class="title">Каталог</div>
+
+							<div class="items columns">
+								<div><a href="/">Линейные</a></div>
+								<div><a href="/">Объемные</a></div>
+								<div><a href="/">Фигурные</a></div>
+								<div><a href="/">Круглые</a></div>
+								<div><a href="/">Для офиса</a></div>
+								<div><a href="/">Для торговых площадей</a></div>
+								<div><a href="/">Декоративные</a></div>
+								<div><a href="/">Наружные</a></div>
+								<div><a href="/">Архитектурные</a></div>
+							</div>
+						</div>
+
+
+						<div class="col_right">
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+							</div>
+
+							<div class="links">
+								<div class="items">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/">Сотрудничество</a></div>
+									<div><a href="/">Доставка и оплата</a></div>
+									<div><a href="/">Портфолио</a></div>
+									<div><a href="/">Производство</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2014-2022 Интернет-магазин света. Все права защищены.</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденцальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта - <span>Точка Ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Ваше имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7 (___) ___-__-__">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Необязательное сообщение</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line agree">Нажимая "Отправить", я даю согласие на обработку моих  персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

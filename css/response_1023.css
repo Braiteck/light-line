@@ -676,6 +676,17 @@
     }
 
 
+    .catalog_form .swiper-slide
+    {
+        width: 240px;
+    }
+
+    .catalog_form .swiper-slide.big_w
+    {
+        width: 480px;
+    }
+
+
     .catalog_form .category
     {
         min-height: 160px;
@@ -776,6 +787,8 @@
     ------------------*/
     .consult_block .data
     {
+        display: block;
+
         padding: 40px 52px;
     }
 
@@ -813,6 +826,14 @@
         left: auto;
 
         width: 380px;
+    }
+
+    .consult_block .img.big
+    {
+        top: 32px;
+        left: auto;
+
+        width: 340px;
     }
 
 
@@ -1242,6 +1263,207 @@
     .banner .link
     {
         left: 28px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .text_block
+    {
+        width: 100%;
+    }
+
+
+
+    .contacts_info .work_time
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .contacts_info .work_time .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .contacts_info .places
+    {
+        margin-left: 0;
+    }
+
+    .contacts_info .places > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .place .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .contacts_info .place .callback_btn
+    {
+        display: block;
+    }
+
+
+
+    .contacts_info .socials .label
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-right: 48px;
+    }
+
+
+
+    .contacts_info .emails
+    {
+        margin-left: -32px;
+    }
+
+    .contacts_info .emails > *
+    {
+        width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+
+    .contacts_info .maps .tabs
+    {
+        padding: 32px 0;
+    }
+
+
+    .contacts_info .maps .tabs button
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .contacts_info .maps .tabs button + button
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        height: auto;
+        padding: 40px 24px;
+    }
+
+
+    .action_block .img
+    {
+        left: 4px;
+
+        height: 120px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 17px;
+
+        width: auto;
+    }
+
+
+    .action_block .order_btn
+    {
+        margin-left: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .services .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+    }
+
+
+
+    /*---------------
+        Any mount
+    ---------------*/
+    .any_mount .row
+    {
+        font-size: 0;
+
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .any_mount .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .any_mount .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .any_mount .row > *
+    {
+        display: inline-block;
+
+        width: 272px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .any_mount .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .any_mount .item .thumb
+    {
+        height: 192px;
+        margin-bottom: 20px;
     }
 
 

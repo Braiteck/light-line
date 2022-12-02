@@ -458,6 +458,74 @@ $(() => {
 	})
 
 
+	// Контакты
+	const placeSliders = []
+
+	$('.place .swiper').each(function (i) {
+		$(this).addClass('place_s' + i)
+
+		let options = {
+			loop: true,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
+				bulletActiveClass: 'active'
+			},
+			preloadImages: false,
+			lazy: {
+				enabled: true,
+				checkInView: true,
+				loadOnTransitionStart: true,
+				loadPrevNext: true
+			},
+			spaceBetween: 20,
+			slidesPerView: 1
+		}
+
+		placeSliders.push(new Swiper('.place_s' + i, options))
+	})
+
+
+	// ЛЮБАЯ ФОРМА
+	const catalogFormSliders = []
+
+	$('.catalog_form .swiper').each(function (i) {
+		$(this).addClass('catalog_form_s' + i)
+
+		let options = {
+			loop: true,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			preloadImages: false,
+			lazy: {
+				enabled: true,
+				checkInView: true,
+				loadOnTransitionStart: true,
+				loadPrevNext: true
+			},
+			spaceBetween: 20,
+			slidesPerView: 'auto'
+		}
+
+		catalogFormSliders.push(new Swiper('.catalog_form_s' + i, options))
+	})
+
+
 	// Боковая колонка - Фильтр
 	$('.filter_btn').click(function (e) {
 		e.preventDefault()

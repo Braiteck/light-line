@@ -228,6 +228,12 @@
     }
 
 
+    .catalog_form .swiper-slide.big_w
+    {
+        width: 320px;
+    }
+
+
     .catalog_form .category.horizontal .thumb,
     .catalog_form .category.horizontal2 .thumb
     {
@@ -314,12 +320,6 @@
     .consult_block .data
     {
         padding: 32px 28px 40px;
-    }
-
-
-    .consult_block .title
-    {
-        line-height: 140%;
     }
 
 
@@ -628,6 +628,67 @@
         margin-top: 24px;
 
         text-align: center;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .work_time
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+
+
+    .contacts_info .place .location
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .contacts_info .place .phone
+    {
+        margin-top: 8px;
+    }
+
+
+    .contacts_info .emails
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .contacts_info .emails > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .emails .label
+    {
+        font-size: 16px;
+    }
+
+
+
+    .contacts_info .maps
+    {
+        margin-top: 60px;
+    }
+
+
+    .contacts_info .maps .tabs button
+    {
+        font-size: 15px;
+        line-height: 19px;
     }
 
 

@@ -492,6 +492,19 @@
     }
 
 
+    .catalog_form .controls
+    {
+        top: -80px;
+    }
+
+    .catalog_form .controls .swiper-button-next,
+    .catalog_form .controls .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
     .catalog_form .category .thumb
     {
         height: 132px;
@@ -711,6 +724,7 @@
     .consult_block .title
     {
         font-size: 26px;
+        line-height: 130%;
     }
 
 
@@ -748,6 +762,12 @@
         left: 25%;
 
         width: 340px;
+    }
+
+    .consult_block .img.big
+    {
+        top: 20px;
+        left: 28%;
     }
 
 
@@ -1263,6 +1283,259 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .text_block
+    {
+        width: calc(100% - 420px);
+    }
+
+
+
+    .contacts_info .work_time
+    {
+        font-size: 15px;
+
+        width: 380px;
+        padding: 24px;
+    }
+
+    .contacts_info .work_time .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    .contacts_info .places
+    {
+        margin-top: 48px;
+    }
+
+
+    .contacts_info .place .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .contacts_info .place .location
+    {
+        font-size: 15px;
+    }
+
+
+    .contacts_info .place .phone
+    {
+        font-size: 14px;
+
+        margin-top: 4px;
+    }
+
+    .contacts_info .place .phone b
+    {
+        font-size: 19px;
+    }
+
+    .contacts_info .place .phone .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .contacts_info .place .callback_btn
+    {
+        font-size: 15px;
+
+        display: none;
+
+        margin-left: 20px;
+        padding: 2px 16px;
+    }
+
+
+    .contacts_info .place .images
+    {
+        margin-top: 28px;
+        padding-bottom: 23px;
+    }
+
+    .contacts_info .place .swiper-horizontal > .swiper-pagination-bullets,
+    .contacts_info .place .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .contacts_info .place .swiper-pagination-custom,
+    .contacts_info .place .swiper-pagination-fraction
+    {
+        bottom: -23px;
+    }
+
+
+    .contacts_info .emails
+    {
+        margin-top: 40px;
+        margin-bottom: -32px;
+        margin-left: -40px;
+    }
+
+    .contacts_info .emails > *
+    {
+        width: calc(25% - 40px);
+        margin-bottom: 32px;
+        margin-left: 40px;
+    }
+
+
+    .contacts_info .emails .label
+    {
+        font-size: 18px;
+    }
+
+    .contacts_info .emails a
+    {
+        font-size: 15px;
+    }
+
+
+
+    .contacts_info .maps
+    {
+        margin-top: 80px;
+    }
+
+
+    .contacts_info .maps .tabs
+    {
+        padding: 40px 0;
+    }
+
+
+    .contacts_info .maps .tabs button
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .contacts_info .maps .tabs button + button
+    {
+        margin-left: 20px;
+    }
+
+
+    .contacts_info .maps .tab_content.active
+    {
+        height: 440px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        height: 200px;
+        padding: 40px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 20px;
+
+        width: 316px;
+    }
+
+
+    .action_block .order_btn
+    {
+        margin-left: 48px;
+        padding: 15px 28px 14px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -28px;
+        margin-left: -12px;
+    }
+
+    .services .row > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 28px;
+        margin-left: 12px;
+    }
+
+
+    .services .service .thumb
+    {
+        height: 188px;
+        margin-bottom: 20px;
+    }
+
+
+    .services .service .name span
+    {
+        padding: 8px 16px 8px 0;
+    }
+
+
+    .services .service .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+    .services .service .order_btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Any mount
+    ---------------*/
+    .any_mount .item
+    {
+        padding: 20px;
+    }
+
+
+    .any_mount .item .thumb
+    {
+        height: 216px;
+        margin-bottom: 28px;
+    }
+
+
+    .any_mount .item .name span
+    {
+        padding: 8px 16px 8px 0;
+    }
+
+
+    .any_mount .item .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -1290,10 +1563,4 @@
         margin-bottom: 24px;
         padding-bottom: 24px;
     }
-
-
-
-    /*-----------
-        PopUp
-    -----------*/
 }
